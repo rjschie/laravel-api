@@ -1,0 +1,5 @@
+#!/bin/bash
+
+composer install
+chown ryanschie: ./vendor
+chown -R ryanschie: ./vendor/*
